@@ -8,12 +8,12 @@ const HooksOne = () => {
     const [phone, setPhone] = useState('');
     const [modalVisible, setModalVisible] = useState(false);
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
         setModalVisible(true);
-        setName('');
-        setFirstName('');
-        setEmail('');
-        setPhone('');
+        // setName('');
+        // setFirstName('');
+        // setEmail('');
+        // setPhone('');
     };
 
     return (

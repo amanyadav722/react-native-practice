@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import HooksOne from './src/components/HooksOne';
+import Movies from './src/movies/Movies';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <HooksOne />
+      <Movies />
       <StatusBar style="auto" />
     </View>
   );
